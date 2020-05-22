@@ -4,16 +4,19 @@
 // // psuedocode
 // random number b/w 1-0 every 1000 milliseconds
 // 1++ (add 1 to the counter each time)
+// get a random number
 // if random number is > .75
+// console.log("done")
+// clear the interval and pass in the variable intervalled
+// cosole.log("counter")
 // exit loop
-// console.log(counter)
-
-let i = Math.random();
-let counter = 1;
 
 function randomGame() {
+  let i;
+  let counter = 0;
   let intervalled = setInterval(function () {
     counter++;
+    i = Math.random();
     if (i > 0.75) {
       console.log(i);
       console.log("done");
