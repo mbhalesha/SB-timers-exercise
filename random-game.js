@@ -10,6 +10,7 @@
 // clear the interval and pass in the variable intervalled
 // cosole.log("counter")
 // exit loop
+// execute function - randomGame();
 
 function randomGame() {
   let i;
@@ -25,3 +26,5 @@ function randomGame() {
     }
   }, 1000);
 }
+
+randomGame();
